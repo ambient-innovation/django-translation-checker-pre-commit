@@ -1,0 +1,11 @@
+[project]
+name = "django-translation-checker-pre-commit"
+version = "0.1.1"
+dependencies = [
+    "ambient-toolbox>=9.6",
+]
+
+[project.optional-dependencies]
+dev = [
+
+]
