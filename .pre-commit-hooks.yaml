@@ -1,0 +1,9 @@
+- id: django-translation-checker-git-diff
+  name: django-translation-checker-git-diff
+  description: "todo"
+  entry: git diff --ignore-matching-lines=POT-Creation-Date --ignore-matching-lines=# --exit-code locale/
+  language: python
+  types_or: [python]
+  args: []
+  require_serial: true
+  additional_dependencies: []
